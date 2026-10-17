@@ -15,6 +15,62 @@
     ul { list-style: none; font-size: 18px; line-height: 2.2; }
 
     /* ===== DOST KA CSS (sirf yahan likhe) ===== */
+    /* ===== DOST KA CSS ===== */
+.friend-section {
+  background: #e8f8ef;
+  padding: 25px;
+  margin: 25px 20px;
+  border-radius: 12px;
+}
+
+.friend-section h2 {
+  color: #176b45;
+  margin: 10px 0 15px;
+}
+
+.friend-section p {
+  margin: 10px 0;
+  line-height: 1.7;
+}
+
+.friend-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.friend-card {
+  background: white;
+  border: 1px solid #b7e4ca;
+  border-radius: 10px;
+  padding: 15px;
+  flex: 1;
+  min-width: 180px;
+}
+
+.friend-card h4 {
+  color: #176b45;
+  margin-top: 5px;
+}
+
+.friend-card p {
+  font-size: 14px;
+}
+
+.friend-btn {
+  display: inline-block;
+  background: #176b45;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.friend-btn:hover {
+  background: #104d31;
+}
 
   </style>
 </head>
@@ -47,6 +103,54 @@
 
 
   <!-- ===== DOST KA HISSA START ===== -->
+
+<section class="friend-section">
+  <h2>Explore Your Learning Journey</h2>
+
+  <p>
+    Improve your skills, explore new subjects and take the next
+    step towards your academic goals.
+  </p>
+
+  <div class="friend-cards">
+
+    <div class="friend-card">
+      <h4>📚 Study Resources</h4>
+      <p>
+        Find helpful notes, study materials and resources
+        for your subjects.
+      </p>
+      <a href="#resources" class="friend-btn">Explore</a>
+    </div>
+
+    <div class="friend-card">
+      <h4>💻 Programming Skills</h4>
+      <p>
+        Learn programming basics and improve your
+        problem-solving skills.
+      </p>
+      <a href="#programming" class="friend-btn">Learn More</a>
+    </div>
+
+    <div class="friend-card">
+      <h4>📝 Practice Tests</h4>
+      <p>
+        Test your knowledge and prepare for your
+        upcoming quizzes and exams.
+      </p>
+      <a href="#practice" class="friend-btn">Start Practice</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="friend-section" id="resources">
+  <h2>Study Smart, Not Just Hard!</h2>
+  <p>
+    Make a daily timetable, revise your lessons regularly
+    and practise questions to achieve better results.
+  </p>
+</section>
 
   <!-- ===== DOST KA HISSA END ===== -->
 
